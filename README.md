@@ -1,3 +1,31 @@
+# Noks.io | Secure & Anonymous Student Communities
+
+Noks.io is a next-generation, anonymous community platform designed exclusively for high school and university students. It facilitates open dialogue, campus-wide networking, and safe expression through a hybrid AI+Human moderation system.
+
+## 🌟 Vision & Key Features
+
+* **Verified Anonymity:** Users can post without revealing their identities, but must undergo **Campus Verification** to ensure the community remains exclusive to real students.
+* **Hybrid Moderation Engine:** Combines **OpenAI/TensorFlow** for real-time risk detection with a community-driven moderator election system.
+* **Transparent Governance:** All AI and moderator actions are logged on a transparent ledger for community audit, preventing censorship and bias.
+* **Safety First:** Dedicated **Age Control** mechanisms for users under 18 and strict content filtering protocols.
+* **Gamified Engagement:** Voluntary donation systems and merit-based ranking to incentivize positive community contributions.
+
+## 🛠️ Technical Architecture (Planned)
+
+* **Frontend:** React / React Native for a seamless cross-platform experience.
+* **Backend:** Node.js (Express) or Python (Django) focusing on high-concurrency handling.
+* **Database:** PostgreSQL for structured user/verification data; MongoDB for flexible post storage.
+* **AI Layer:** Integration with OpenAI API for sentiment analysis and toxic content filtering.
+* **Storage:** Backblaze B2 or Wasabi for cost-effective, high-availability media storage.
+
+## 📂 System Design (Abstract)
+
+```text
+├── api/                # Core Logic & AI Moderation Layer
+├── client/             # Mobile-Responsive React Interface
+├── verification/       # Academic Domain Validation Service
+└── moderation/         # Transparent Action Logs
+
 # Noks.io
 
 **Noks.io**, üniversite ve lise öğrencileri için anonim ve güvenli bir topluluk platformudur.  
